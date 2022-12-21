@@ -1,0 +1,59 @@
+.container {
+  background-color: #112a50;
+  padding-left: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+ 
+  color: white;
+}
+
+#outlined-select-currency-native {
+  color: white;
+  border: 1px solid white;
+  padding: 8px 30px;
+}
+
+.right {
+  margin: 30px 20px 0 0;
+}
+.debitBalance {
+  padding: 10px 0px 10px 0px;
+  color: white;
+}
+
+.buttons {
+  position: relative;
+  top: 20px;
+ 
+  background-color: white;
+  padding: 2px;
+  width: 270px;
+  border-bottom: 2px solid lightgray;
+  border-radius: 5px;
+}
+
+.buttons > .buttons_left {
+  color: white;
+  background-color: #25b583;
+}
+.MuiSelect-icon {
+  color: white !important;
+}
+
+@media (max-width: 600px) {
+  .debitBalance {
+
+    margin-right: 10px;
+  }
+  .buttons {
+    width: 350px;
+    left: 10px;
+  }
+  .buttons > .buttons_left {
+    width: 180px;
+  }
+ 
+} ;

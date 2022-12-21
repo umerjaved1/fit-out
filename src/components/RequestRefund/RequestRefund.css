@@ -1,0 +1,20 @@
+.firstTextFields {
+  display: flex;
+}
+
+.secondTextFields {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .firstTextFields {
+    display: block;
+    margin-right: 10px;
+  }
+  .secondTextFields {
+    display: block;
+  }
+  .lastTextfield {
+    display:block;
+  }
+}
